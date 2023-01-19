@@ -1,0 +1,33 @@
+<br/>
+<div class="border border-primary">
+<span class="radioClass">(Filters) Show : </span>
+
+<input name='options' type='radio' value="All"
+       [(ngModel)]="selectedRadioButtonValue"
+       (change)="onRadioButtonSelectionChange()">
+<span class="radioClass">{{'All(' + all + ')'}}</span>
+
+<input name="options" type="radio" value="Male"
+       [(ngModel)]="selectedRadioButtonValue"
+       (change)="onRadioButtonSelectionChange()">
+<span class="radioClass">{{"Male(" + male + ")"}}</span>
+
+<input name="options" type="radio" value="Female"
+       [(ngModel)]="selectedRadioButtonValue"
+       (change)="onRadioButtonSelectionChange()">
+
+<span class="radioClass">{{"Female(" + female + ")"}}</span>
+
+
+<input name="options" type="radio" value="IT"  [(ngModel)]="selectedRadioButtonValue"
+(change)="onRadioButtonSelectionChange()">
+<span class="radioClass">{{"IT(" + it + ")"}}</span>
+
+<input name="options" type="radio" value="HR"  [(ngModel)]="selectedRadioButtonValue"
+(change)="onRadioButtonSelectionChange()">
+<span class="radioClass">{{"HR(" +hr+ ")"}}</span>
+
+<input name="options" type="radio" value="Sales"  [(ngModel)]="selectedRadioButtonValue"
+(change)="onRadioButtonSelectionChange()">
+<span class="radioClass">{{"Sales(" + sales + ")"}}</span>
+</div>

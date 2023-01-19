@@ -1,0 +1,15 @@
+<h2>viewchild-example Templete!</h2>
+<div>
+Name:<input type="text" #name ><br/>
+Name:<input type="text" #state ><br/>
+</div>
+
+<h2>viewchild-example Drictive!</h2>
+<p appColor>Change color from drictive</p>
+<div>
+  <input type="radio" name="rd" (click) ="changeColor('red')" />Red
+  <input type="radio"  name="rd" (click)="changeColor('green')" />Green
+  <input type="radio"  name="rd" (click)="changeColor('blue')"/>Blue
+</div>
+<h2>viewchild-example Component !</h2>
+<h3>{{message}}</h3>
